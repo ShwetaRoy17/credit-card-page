@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Sassy+Frass&display=swap');
+
+/* utility classes */
+.center{
+    margin: auto;
+}
+ 
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+.flex-col{
+    display:flex;
+    flex-direction: column;
+}
+body{
+    background: linear-gradient(#BAB595,#F2ECEE,#80808A);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+}
+.container{
+   background: #2b1813;
+   width: 70%; 
+ justify-content: center;
+}
+#head{
+    font-family: 'Libre Baskerville', serif;
+color: rgb(247, 244, 244);
+font-size: 5rem;
+}
+#total{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    color:#706360;
+}
+#paymop{
+    margin-top: 3rem;
+    font-size: 0.45rem;
+}
+.box1{
+    margin-left:10px;
+    margin-right: 0px;
+    height: 60%;
+    width:40%;
+}
+.box2{
+    font-family: 'Libre Baskerville', serif;
+    color:white;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left:0px;
+    margin-right: 10px;
+    height: 80%;
+    width:50%;
+}
+#main img{
+    height: 900px;
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+    opacity: 1;
+}
+img{
+    height:100px;
+    width:100px;
+    margin:5px;
+}
+input{
+    border-radius:.4rem;
+    border:rgb(16, 15, 15) solid 3px;
+    width:80%;
+    margin-bottom: 5px;
+}
+#butn{
+margin-top: 8rem;
+ }
+#butn2 {
+    height: 2rem;
+    margin-bottom:6rem;
+color:green;
+width: 100px;
+border: green solid;
+border-radius: 0.3rem;
+}
+
+#butn1 {
+    height: 2rem;
+    margin-bottom:6rem;
+    color:red;
+    width: 100px;
+    border: red solid;
+    border-radius: 0.3rem;
+    }
+    save{
+        margin-left: 0px;
+    }
+    .save input{
+display: inline;
+    }
+    .save label{
+        display: inline;
+    }
